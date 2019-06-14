@@ -1,10 +1,14 @@
-version: 1.1.0
+version: 1.0
 services:
-  - mysql
   - php:
       version: 7.1
 
 events:
+  build:
+    steps:
+      - build-something:
+        script:
+          - 'echo "Welcome to Pipelines!"'
   post-deploy:
     steps:
         - deploy:
