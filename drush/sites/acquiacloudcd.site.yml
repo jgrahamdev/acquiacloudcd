@@ -1,0 +1,9 @@
+local:
+  docker:
+    service: appserver
+    exec:
+      options: --user www-data -e COLUMNS=${DRUSH_COLUMNS} -e DRUSH_PATHS_ALIAS_PATH=/app/drush/sites
+  uri: acquiacloudcd.lndo.site
+  root: /app/docroot
+  paths:
+    drush-script: /app/vendor/drush/drush/drush
