@@ -37,3 +37,5 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cloud:
+  appId: 2880b0f3-845f-4c13-9ac0-a04e6e38da84
