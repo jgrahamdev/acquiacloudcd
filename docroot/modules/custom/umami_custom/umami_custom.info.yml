@@ -1,0 +1,6 @@
+name: Umami Custom Module
+description: Custom business logic for umami.
+package: Umami
+type: module
+version: 1.0
+core: 8.x
